@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TennisProSupply - оптовые поставки теннисных ракеток из Франции</title>
+    <style>
+        /* Базовые стили */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+        
+        /* Шапка */
+        header {
+            background: #fff;
+            padding: 20px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #0066cc;
+        }
+        
+        /* Герой секция */
+        .hero {
+            background: #0066cc;
+            color: #fff;
+            padding: 100px 0;
+            text-align: center;
+        }
+        
+        .hero h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        
+        .hero p {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .btn {
+            display: inline-block;
+            background: #ff6600;
+            color: #fff;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        
+        /* Особенности */
+        .features {
+            padding: 80px 0;
+        }
+        
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+        
+        .feature-card {
+            background: #fff;
+            padding: 30px;
+            border-radius: 5px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        
+        /* Футер */
+        footer {
+            background: #333;
+            color: #fff;
+            padding: 40px 0;
+            text-align: center;
+        }
+        
+        /* Адаптивность */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 28px;
+            }
+            
+            .hero p {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Шапка -->
+    <header>
+        <div class="container">
+            <div class="logo">TennisProSupply</div>
+        </div>
+    </header>
+
+    <!-- Герой секция -->
+    <section class="hero">
+        <div class="container">
+            <h1>ОПТОВЫЕ ПОСТАВКИ ТЕННИСНЫХ РАКЕТОК ИЗ ФРАНЦИИ</h1>
+            <p>Head • Wilson • Babolat и другие премиальные бренды</p>
+            <a href="#contact" class="btn">Получить оптовый прайс</a>
+        </div>
+    </section>
+
+    <!-- Особенности -->
+    <section class="features">
+        <div class="container">
+            <h2 style="text-align: center; margin-bottom: 50px;">Наши преимущества</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <h3>Официальный дистрибьютор</h3>
+                    <p>Прямые контракты с производителями, вся продукция с официальной гарантией</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Поставки из Франции</h3>
+                    <p>Регулярные поставки 2 раза в месяц, собственный логистический отдел</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Выгодные цены</h3>
+                    <p>Специальные условия для оптовых покупателей и теннисных клубов</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer>
+        <div class="container">
+            <p>© 2023 TennisProSupply. Все права защищены.</p>
+        </div>
+    </footer>
+</body>
+</html>
